@@ -4,7 +4,6 @@
     startButton.addEventListener('click', ()=> {
         const checkMath = prompt('数字の入力をしてみてね');
         for (let i =1; i <= checkMath; i ++) {
-    
             if ( i%3 === 0 && i%5 === 0 ) {
                 console.log('FizzBuzz');
             } else if( i%3 === 0 ) {
