@@ -24,13 +24,19 @@
                 ol.appendChild(li);
                 section.appendChild(ol);
                 main.appendChild(section);
-            }    
+            }
+        },
+        reset: function() {
+            location.reload();
         }
     }
     const startButton = document.getElementById('start-button');
     startButton.addEventListener('click', (e)=> {
         fizzBuzzObj.fizzbuzz();
         },false);
-    
+    const resetButton = document.getElementById('reset-button');
+    resetButton.addEventListener('click',()=> {
+        fizzBuzzObj.reset();
+    },false);
 
 }
