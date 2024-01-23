@@ -9,7 +9,7 @@
             const main = document.querySelector('main');
             const section  = document.createElement('section');
             const ol = document.createElement('ol');
-    
+
             for (let i =1; i <= checkMath; i ++) {
                 const li = document.createElement('li');
                 if ( i%3 === 0 && i%5 === 0 ) {
